@@ -1,0 +1,208 @@
+name: firstapp
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^0.20.1
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - Assets/Red.mp3
+    - Assets/black.mp3
+    - Assets/blue.mp3
+    - Assets/brown.mp3
+    - Assets/green.mp3
+    - Assets/grey.mp3
+    - Assets/pink.mp3
+    - Assets/purple.mp3
+    - Assets/yellow.mp3
+    - Assets/skyblue.mp3
+    - Assets/lightgreen.mp3
+    - Assets/lightbrown.mp3
+    - Assets/mainpage/colorposter.png
+    - Assets/mainpage/fruitposter.png
+    - Assets/mainpage/vegetable.png
+    - Assets/mainpage/bodypart.png
+    - Assets/mainpage/shapesposter.png
+    - Assets/fruits/apple.jpeg
+    - Assets/fruits/bananaai.jpeg
+    - Assets/fruits/peachai.jpeg
+    - Assets/fruits/mango.jpeg
+    - Assets/fruits/kiwi.jpeg
+    - Assets/fruits/grapes.jpeg
+    - Assets/fruits/apricot.jpeg
+    - Assets/fruits/lemon.jpeg
+    - Assets/fruits/orange.jpeg
+    - Assets/fruits/papaya.jpeg
+    - Assets/fruits/pineapple.jpeg
+    - Assets/fruits/pomagranate.jpeg
+    - Assets/fruits/strawberry.jpeg
+    - Assets/fruits/watermelon.jpeg
+    - Assets/vegetable/broccoli.jpeg
+    - Assets/vegetable/cabage.jpeg
+    - Assets/vegetable/capsicum.jpeg
+    - Assets/vegetable/carrot.jpeg
+    - Assets/vegetable/cauliflower.jpeg
+    - Assets/vegetable/corn.jpeg
+    - Assets/vegetable/cucumber.jpeg
+    - Assets/vegetable/garlic.jpeg
+    - Assets/vegetable/greenbeans.jpeg
+    - Assets/vegetable/onion.jpeg
+    - Assets/vegetable/peas.jpeg
+    - Assets/vegetable/potato.jpeg
+    - Assets/vegetable/pumpkin.jpeg
+    - Assets/vegetable/radish.jpeg
+    - Assets/vegetable/spinach.jpeg
+    - Assets/vegetable/tomato.jpeg
+    - Assets/apple.mp3
+    - Assets/apricot.mp3
+    - Assets/banana.mp3
+    - Assets/grapes.mp3
+    - Assets/kiwi.mp3
+    - Assets/lemon.mp3
+    - Assets/mango.mp3
+    - Assets/orange.mp3
+    - Assets/papaya.mp3
+    - Assets/peach.mp3
+    - Assets/pineapple.mp3
+    - Assets/Pomegranate.mp3
+    - Assets/strawberry.mp3
+    - Assets/watermelon.mp3
+    - Assets/broccoli.mp3
+    - Assets/cabage.mp3
+    - Assets/capsicum.mp3
+    - Assets/carrot.mp3
+    - Assets/cauliflower.mp3
+    - Assets/corn.mp3
+    - Assets/cucumber.mp3
+    - Assets/garlic.m4a
+    - Assets/greenbeans.m4a
+    - Assets/onion.m4a
+    - Assets/peas.m4a
+    - Assets/potatos.m4a
+    - Assets/pumpkin.m4a
+    - Assets/radish.m4a
+    - Assets/spinach.m4a
+    - Assets/tomato.m4a
+    - Assets/shapes/arrow.jpg
+    - Assets/shapes/circle.jpeg
+    - Assets/shapes/cone.jpeg
+    - Assets/shapes/diamond.jpeg
+    - Assets/shapes/hexagon.jpeg
+    - Assets/shapes/oval.jpeg
+    - Assets/shapes/star.jpeg
+    - Assets/shapes/square.jpeg
+    - Assets/shapes/triangle.jpeg
+    - Assets/shapes/rectangle.jpeg
+    - Assets/arrow.mp3
+    - Assets/circle.m4a
+    - Assets/cone.m4a
+    - Assets/diamond.m4a
+    - Assets/hexagon.m4a
+    - Assets/oval.m4a
+    - Assets/star.m4a
+    - Assets/square.m4a
+    - Assets/triangle.m4a
+    - Assets/rectangle.m4a
+    - Assets/bodyparts/ears.jpeg
+    - Assets/bodyparts/eyes.jpg
+    - Assets/bodyparts/head.jpg
+    - Assets/bodyparts/feet.jpeg
+    - Assets/bodyparts/Hands.png
+    - Assets/bodyparts/legs.jpeg
+    - Assets/bodyparts/lips.jpeg
+    - Assets/bodyparts/nose.jpeg
+    - Assets/bodyparts/shoulder.jpeg
+    - Assets/bodyparts/teeth.jpeg
+    - Assets/ears.mp3
+    - Assets/eyes.mp3
+    - Assets/head.mp3
+    - Assets/feets.mp3
+    - Assets/Hands.mp3
+    - Assets/legs.mp3
+    - Assets/lips.mp3
+    - Assets/nose.mp3
+    - Assets/shoulder.mp3
+    - Assets/teeth.mp3
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
